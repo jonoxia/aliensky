@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title></title>
+<script type="application/x-javascript;version=1.8" src="continents.js"></script>
+<style type="text/css">
+.swamp {background-color: #00cc00;}
+.grass {background-color: #99cc00;}
+.upland {background-color: #cccc66;}
+.mountain {background-color: #999900;}
+.ice {background-color: #ffffff;}
+.water {background-color: #0000ff;}
+.deepwater {background-color: #0000cc;}
+</style>
+</head>
+
+<body>
+
+<ul>
+<li>Fault Lines:
+<input type="radio" name="fault" value="0.0">None
+<input type="radio" name="fault" value="0.5">Low
+<input type="radio" name="fault" value="1.0">Medium
+<input type="radio" name="fault" value="2.0">High
+<input type="radio" name="fault" value="3.0">California</li>
+<li>Volcanic Activity:
+<input type="radio" name="volcanic" value="0.0">None
+<input type="radio" name="volcanic" value="0.5">Low
+<input type="radio" name="volcanic" value="1.0">Medium
+<input type="radio" name="volcanic" value="2.0">High
+<input type="radio" name="volcanic" value="3.0">Ring of Fire</li>
+<li>Ruggedness:
+<input type="radio" name="noise" value="0.25">Kansas
+<input type="radio" name="noise" value="0.5">Low
+<input type="radio" name="noise" value="1.0">Medium
+<input type="radio" name="noise" value="1.5">High
+<input type="radio" name="noise" value="2.0">Craggy</li>
+<li>Erosion:
+<input type="radio" name="erosion" value="0.5">Rough
+<input type="radio" name="erosion" value="0.75">Low
+<input type="radio" name="erosion" value="1.0">Medium
+<input type="radio" name="erosion" value="1.5">High
+<input type="radio" name="erosion" value="2.5">Polished</li>
+<li>Sea Level:
+<input type="radio" name="sea" value="0.94">Arid
+<input type="radio" name="sea" value="0.96">Low
+<input type="radio" name="sea" value="1.01">Medium
+<input type="radio" name="sea" value="1.03">High
+<input type="radio" name="sea" value="1.05">Archipelago
+</li>
+</ul>
+
+<p><input type="button" value="Generate" onclick="doStuff('the-table');"></p>
+
+<p id="msg"></p>
+
+
+<table id="the-table" cellspacing="0" cellpadding="0">
+</table>
+
+</body> </html>

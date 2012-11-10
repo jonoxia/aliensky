@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Beneath an Alien Sky</title>
+<style type="text/css">
+.mob-transparency { position: absolute; left: 0px; top: 0px; height: 64px; width:64px; padding: 0em; z-index: 2;}
+.bldg-transparency { position: absolute; left: 0px; top: 0px; height: 64px; width:64px; padding: 0em; z-index: 1;}
+.progress-bar-outer { position: relative; left: 0px; top: 6px; height: 16px; width: 64px; padding: 0em; border-color: black; border: solid; border-width: 1px;}
+.progress-bar-inner { background-color: red; height: 16px; margin: 0px;}
+.condition-mark { position: absolute; left: 0px; top: 0px; height: 24px; width: 14px; padding: 0em; z-index: 2;}
+</style>
+<script type="application/javascript;version=1.8" src="jquery.js"></script>
+<script type="text/javascript" src="keyboardClasses.js"></script>
+<script type="application/javascript;version=1.8" src="worldMapClasses.js"></script>
+<script type="application/javascript;version=1.8" src="mobs.js"></script>
+<script type="application/javascript;version=1.8" src="buildings.js"></script>
+<script type="application/javascript;version=1.8" src="bots.js"></script>
+<script type="application/javascript;version=1.8" src="aliensky-main.js">
+</script>
+<script type="application/x-javascript;version=1.8">
+var gPlayerCharacter = null;
+var gWorldMap = null;
+
+function doMove( deltaX, deltaY) {
+  if (gPlayerCharacter) {
+    gPlayerCharacter.move( deltaX, deltaY );
+  }
+}
+
+keyMap[ARROW_DOWN] = function(evt) {
+		       doMove( 0, 1 );
+		       cancelEvent(evt);
+		       };
+
+keyMap[ARROW_UP] = function(evt) {
+		     doMove( 0, -1);
+		     cancelEvent(evt);
+		     };
+
+keyMap[ARROW_LEFT] = function(evt) {
+                       doMove( -1, 0);
+		       cancelEvent(evt);
+		       };
+
+keyMap[ARROW_RIGHT] = function(evt) {
+			doMove( 1, 0);
+			cancelEvent(evt);
+			};
+
+function clickHandler(x, y) {
+  gWorldMap.handleClickAt(x, y, gPlayerCharacter);
+}
+
+$(document).ready( function() {
+  gWorldMap = makeMap();
+  gPlayerCharacter = new PlayerCharacter(1, 4, 4,
+                             "images/characters/macho-space-babe.png",
+                             gWorldMap, 0);
+  gPlayerCharacter.plot();
+  gPlayerCharacter.showStatsAndCmds();
+
+  // for easier playtesting of construction system:
+  let bot = new Constructobot(2, 6, 5, gWorldMap, 0, gPlayerCharacter);
+  bot.learnPlan("Solar Cell");
+  bot.learnPlan("Refinery");
+  bot.learnPlan("Hydro Farm");
+  bot.learnPlan("Moisture Condenser");
+  bot.plot();
+  let bot2 = new Miningbot(3, 7, 5, gWorldMap, 0, gPlayerCharacter);
+  bot2.plot();
+
+  // Add the keydown listner to the document object
+  bind(document, 'keydown', keyMap, handleKeystroke);
+
+});
+
+</script>
+</head>
+
+<body id="the-body">
+
+<table id="maptable" cellspacing="0" cellpadding="0"></table>
+
+<div id="right-sidebar" style="position:absolute; left:700px; top: 0px;" >
+  <div id="player-status"></div>
+  <hr/>
+  <div id="order-menu-div"></div>
+  <hr/>
+  <div id="msg-log"></div>
+</div>
+<div id="circuit-status" style="float: left">
+  </div>
+
+</body> </html>

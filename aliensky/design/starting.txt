@@ -1,0 +1,48 @@
+Getting new players into the game.
+
+As soon as you come in you are summoned to Captain Ramses.  He offers you a contract -- 'quests' in the game are called contracts, and are mostly traded between players but we need to prime the pump to get people started -- a contract based on the class that you picked.  It's a little bit of a tutorial mission to learn the basic game mechanics of your class and when you finish it you get rewarded with your starting moneys (which is how we inject money into circulation, to match inflation with popuplation growth).
+
+
+So here's the drawback of giving lots of starting players the same contract:  These things get done over and over again.  Pick these quests carefully so that they actually make sense for the colony to be done multiple times (i.e. not "killing a boss").
+
+
+I should also decide how hands-on I want the "Captain Ramses" role (i.e. me) to be: e.g. do I actually have a limited stock of constructobots?  If more laborers start playing, they don' 
+
+
+Marine -- Go kill ten of something?  Scope out the location of the alien monster lair?  Drag back a creature corpse so we can analyze its weaknesses?  Go guard this spot of ground and kill anything that comes near?
+
+(hey, does Ramses give you starting equipment with your starting contract?  Or enough money to buy your starting equipment?)
+
+
+Laborer -- Lots of choices here:  Make us some solar cells, some water purifiers, some what have you... go collect a bunch of mineral ore... Can vary this based on what the colony actually needs?
+
+
+Mechanic -- Lots of choices here too.  Can point you at some broken ship parts and tell you to fix them, or ask you to build useful things out of salvage.
+
+(Mechanic skills:  Diagnose; Salvage; Repair; Build.  Building gets large bonuses if you're set up at a proper workbench in a factory.  Diagnose tells you what's wrong with an item or machine, which gives you info to decide whether it would be more worth repairing, or salvaging for parts to repair other things.  You can build constructobots and other kinds of bots too -- that's how they get into circulation after the ship's original supply runs out.)
+
+
+Medic -- A tricky class since its most obvious starting skills (healing) are totally reactive: you can't heal someone till they've been hurt.  Therefore the game needs LOTS of ways to get people hurt.  >:-)
+
+Anyway, maybe the starting Medic mission is something like "Thaw out five corpsicles".  That's something they'd need a medic for and something they'd need done multiple times.  I'm imagining a room where a lot of dazed just-unfrozen people are wandering around eating breakfast, waiting for players to sign up and turn them into characters.
+
+Or maybe it's "head over to sickbay and see who needs healing".  You can't complete the quest until you interact with another PC.  Zounds!  Or maybe if there are no PCs there yet, you can help them set up the sickbay (which is an impromptu affair inside a random hunk of broken ship) by fetching water, nutrient paste, fixing stuff up, whatever... hmm.  That doesn't sound fun.  Medics need more to do.
+
+(Everybody hates nutrient paste!  It comes in two flavors: chocolate, and algae.  And somebody already ate all the chocolate ones on the first day.  We can't wait for somebody to set up a hydroponic farm and grow some decent tomatoes or something.)
+
+Medic doesn't sound very fun yet.  What else do medics get to do?  Research clues to alien diseases?  Life extension technologies?  Should medic actually be a secondary class attached to something else?
+
+Starting medic mission should involve traveling out into danger.  Maybe the mission is that there's a distress signal from an expedition, so please go out there, heal people, and get them back safe?  (Sounds fun, but who's out there?  Real players who got hurt?  Oh, maybe "dead" players?  As in, if you succumb out in the wilderness, you go into a dormant state until a medic comes along and rescues you?  (handwaved as 'your suit puts you into emergency suspended animation')  And so our newbie medic mission is 1. If there are actual dead players out there, use that; or 2. If not, we invent an NPC and put them out there at some random location, dead, and ask you to go rescue that guy.
+
+
+
+
+Scientist -- Almost as tricky as medic.  The primary scientist activity is going to be looking at the loose ends of the tech tree and generating research points, discovering the need for random bits of alien plant life to continue experimenting on.  Not something that lends itself well to starting quests, since a given discovery can pretty much only be researched once.
+
+Wait a minute, what am I saying.  These are ADVENTURE scientists!  Send 'em out into the field to collect samples from different areas and bring them back to the lab.  These samples should be consumables that other scientists are actually using up as they do experiments, so that getting more of the same isn't a waste.  Maybe make a randomly-generated list of required samples for each player, so no two are going on the exact same quest.  A list might include soil samples from different biomes, different types of plant life, ore, alien creature eggs (very dangerous to collect!) etc.
+
+There's probably a master list in the main computer network of what has been discovered so far about each type of alien plant and animal.  The first biologist to discover a new type of life form gets to name it.  Cpt. Ramses probably pays handsomely for information on new species not previously seen, to encourage players to go out and explore more.
+
+Researching a particular species:  A xenobiologist skill that uses up samples from the species, but puts research points into a pool.  (is this per-player, or pooled, or is there some way of selling your personal research points into the pool?  How does this fit into the overall economy?  How do scientists get funding, basically?)  When the pool is full you discover a new fact about this particular species -- which might be that it's useful for making something, or that it has an exploitable weakness in the case of "monster" species, or that it poses a previously unknown danger, etc. etc.  You don't know what you're going to discover.  (But maybe you know how many unknown facts there are about any given species?)
+
+Scientists are always going to be needing their research equipment upgraded. Especially physicists, who need VERY EXPENSIVE radio telescopes and particle accelerators and stuff like that to advance up the tech tree.

@@ -1,0 +1,314 @@
+Game design! Woo!
+
+Inspiration for this one = Phantasy Star, Alpha Centauri, Starcraft, Forge discussions about simulationism, frustration with typical MMORPGs, Shock:.  Dwarf Fortress (which I've never played.)  M.U.L.E. which I've also never played (should fix that.)  Classic science fiction novels.
+
+
+Social principles:
+ - Room for player creativity
+ - Lots of reasons for players to talk to each other and cooperate
+ - De-emphasize violent conflict, character death, hit points, etc.
+ - Emphasize exploration and discovery
+ - Emphasize building something, over time, that you can be proud of
+ - There are some collective decisions that need to be made.  Therefore: Politics.
+ - Play in a few minutes per day.  Many tasks take a certain number of seasons to complete, which are tied to days of real time.  So you log on, talk to people, explore a bit, check on your tasks from last time, trade things that you need, set up your tasks for next time, log off.
+ - Player can control both adventurers and decision-makers (who have more of a strat-sim gameplay) who are either 'kings' or 'villians'.  It's science fiction though, so instead of 'kings' let's say they're, um, 'councilors'?  'mayors'?  'judicators'?  'aldermen'?
+
+ - Quasi-educational economic simulation?
+
+Story and theme:
+ - Simulationist; no hard-coded story but a dynamic world with story seeds embedded in it
+ - Far-future science fiction.  You're settling an alien world which has both native life and perhaps competing colonists who are hostile toward humanity.  The world is harsh, but there is plenty of reason for optimism.
+ - All players get to contribute to scientific advances which open up new options for the game world.  All players get to contribute to building up civilization on this planet.  Consequently, the game as a whole is like a social experiment: can
+   the players, who are strangers in real life, work together well enough to make the colonization a success?  The thematic statement of the game is thus about the nature of humanity -- cynicism or idealism? -- and depends on the people who play it.
+ - Player characters are essentially people (even the androids).  They have personal stories and friendships and conflicts against the exotic backdrop.  Both the characters and the setting should be believable.
+ - Player characters' careers can and will end.  The game as a whole, in fact, will end at some point.  There are several
+   possible ending conditions.  This gives meaning to everything that went on up until then.
+
+
+Visual style:
+  - 16-bit japanese console RPG, as much as I can manage it
+
+
+How do councilors interact with adventurers?  Can the same player control both?  Can the same character be both?  Both at once?
+
+
+Let's try to figure out the basic actions a councilor player has available, what resources they have to manage, etc.
+
+  -- Found a New Settlement (by, what, building a town hall?)  You get to name it and draw a flag for it, you become first councilor.  (Although it's not a permanent position -- you can be voted out later!)   In the UI you get a town control panel.  This lets you do a lot of social-level things, like post messages that anyone entering the town can read:  a welcome message, a statement of the towns laws and values, etc.
+
+  -- Does this work like SimCity, where you zone areas but other people build on them?  Do you put up a message saying "Our town needs solar panels, offering this much credits for them" and then wait for other players to build you those solar panels?  Or you can build them yourself but it takes up a lot of your character's time?
+
+  -- What resources does your town need?  (Food, water, electricity, commlink, building materials all come to mind.)
+
+  -- Or rather the TOWN needs electricity/commlink/buildin materials; PLAYERS need food and water.  Hmm, how does that work?  Is water flowing around the planet surface, in which case all you need to do is collect it, kill any alien germs, and make sure you don't pollute it too much?  Or is it a super-limited resource?  Do you have to condense and purify it out of the air?  Or mine materials with water bound into them and retrieve it by chemical reaction?
+
+  -- I guess that begs the question of, is this planet largely Earth-biosphere-compatible, completely earth-biosphere-hostile, or... and I think this is the answer:  it supports competing biospheric domains -- the alien biosphere and the earth biosphere.  So regions are defined in the game as being full alien biosphere, full earth biosphere, or border zones.  The alien biosphere will kill you if you're not in an environment suit.  That means that expeditions into the alien areas are time-limited by the energy/food/water supplies in your suit, which can be recharged at town areas.  One of the things you can get for your town is a dome; once that's built you can force the inside of the dome to become earth-biosphere, and then you can walk around there without spacesuits.  Later in the game maybe you can terraform square-by-square on the main map.  Coverting the entire planet to earth biosphere might be a potential endgame goal.  Meanwhile, crazy stuff happens in the border zones!  Microscopic biological warfare kind of crazy stuff.
+
+  -- This could be tracked by the game system as, each square on the map has a float from 0 to 1, with some function for how it changes day by day (a function that takes into account the status of the neighboring map squares, and tends to converge to either 0 or 1.)  Various biotech, (that would be researched by Xenobiologist player characters, of course) could give you better ways to push your terraforming and to resist the encroachment of the alien biosphere.  While one endgame would be to remake the entire planet in the image of Earth, perhaps a different branch of biotech would involve adapting *humans themselves* to be able to exist in the alien biosphere.
+
+  -- Android characters don't care about the alien biosphere, making them excellent explorers.  Is there any limitation on making android characters?
+
+  -- Is there intelligent native life?  If so, can you play as one?  And how is that different from playing as a human?
+
+  -- Everybody loves killer robots.  One of the possibilities for playing a villian is that you are a servant of some kind of malevolent machine intelligence which wants to destroy all humans (or put them in The Matrix, whatever).  Question: Can this machine intelligence, like, take over androids using some kind of computer virus?  What does this mean for android player characters?
+
+  -- So I guess the backstory is like, this planet is not nearly as habitable as you thought from a distance, but your ship was fallin apart so it was land here or die.  Perhaps you have no idea whether Earth is still around.  Perhaps the main ship is still in orbit, and full of cool stuff that you might want to go up and get.  That could be another mid-game or end-game goal.  Yet another could be to re-establish contact with Earth and find out what's been happening there.
+
+  -- Solar panels bring in a certain amount of electricity per (real-time day I guess?).  Then I suppose you need a storage battery, and wires connecting that out to the buildings that will use it... a power grid, if you will.  The original town hall building can have a certain small amount of innate production and storage capacity, to get you started.
+
+  -- Do restrictions based on your character's limited actions per real-time just provide an incentive for players to have multiple sock-puppet accounts?
+
+    Maybe the limited-actions-per-real-time thing is not "your character is doing this" but rather you-control-X-number-of-constructobots, which cost some initial investment, and can be assigned tasks, but take real-time to complete the tasks?  That makes intuitive sense to me.  Then even an adventuring player could own a constructobot or two which they can assign tasks to generate extra income, while a councilor could own so many constructobots that they hire other people to manage them, with many possibilities in-between.
+
+  -- Say you've got a building running in your town which turns electricity and minerals into some useful tool.  Do the tools just pile up at the building?  Can only you take them, or can anyone take them?  Can you put security devices on there to stop other people from taking them, like alarms and locks?  Are there then thief skills for disabling alarms and locks?  Sneaky!
+
+  -- The first "town" on the planet is actually your landing craft (no longer flyable), which has a sealed environment with lots of the basic neccessities on board.  In order to get the game economy started, this landing craft probably includes some kind of NPC "stores" for you to trade with.  Maybe the landing craft is controlled by some kind of NPC AI, who can issue credits into the economy as well as produce your initial constructobots if you bring her sufficient raw materials.  (Does she shut-down once the player-run economy is sufficiently established?)
+
+  -- Is there more than one kind of 'mineral' resources?  Does it add anything to gameplay to have multiple kinds?  What's the sweet spot?  Five?  Six?  The entire periodic table?
+     Iron, aluminum:  Mechanical construction
+     copper, silicates: Electronic components
+     copper: electrical transmission
+     silicates: glass
+     precious stones: lasers :-)
+     hydrocarbons, hydrogen: rocket fuel
+     also hydrocarbons -> synthetic rubber, plastic, other petroleum by-products
+     also hydrogen -> fusion fuel
+     helium -> blimps, cryogenics, inert gas shield for arc-welding and growing crystals (in real life it is distilled from air or natural gas deposits), superconducting magnets, etc.
+     nitrogen compounds -> fertilizer, cryogenics, making ammonia, stainless steel, etc.
+     chlorine -> purifying drinking water (relevant!!) also many medicines and chemically-processed goods
+     lithium -> batteries, lubricants, alloys, organic chemstry reagents, high strength ceramics, treating manic depression,
+                absorbing carbon dioxide in space vehicles
+     carbon -> it's in everything, but maybe cheap as free?
+     various rare gases, used in lasers, neon lights, etc
+     zinc -> alloys, preventing corrosion, batteries, producing plastics, etc.
+     gold -> electronics, coating space satellites, nanotech
+     silver -> electronics, batteries, photography, dental alloys, mirrors
+
+     Solar panels use Cadmium Telluride or copper indium gallium selenide; silicon; aluminum
+
+
+
+  -- There need to be Hostile Creatures (NPC) who can attack and damage your town's infrastructure, creating the need to hire soldiers (PC) for defense.  In addition to PC or PC-controlled enemies (like evil robots, etc. created by villian players).  So there will be *some* combat, even if it's not the essential part of the game.  How will it work?  Will it be real-time or turn-based?  Happen on the main map or inside an encounter screen or on a fighty sub-map?  To the death or to the capture?  Will there be, like,
+modifiers for range and cover and stuff?  If it's semi-real-time, does your guy get like a meter that every time it fills up you get an attack menu?  Can you move around freely whether the meter's up or not?  (In the naiive implementation your movement speed is limited only by how fast you can press arrow keys but maybe that should change.)
+
+ 
+  -- Are there mutliple map scales (in town, in fight, in dungeon, overworld map) or is it all at a single consistent scale?  I suppose I actually favor the latter, but that does mean the world map has to be FREAKIN HUGE, like 10,000 squares on a side or something, and we have to fill all that in with terrain somehow.  Probably not keep it all in memory at the same time, either.  On the other hand, if there is a smaller-scale fight map, then we could display a "battle in progress" icon on the main map wherever one is happening, and if you step into that square you are taken to the fight map to join in...
+
+  -- How do random encounters work?  Do creatures spawn somewhere, and then we keep track of the discrete location of each one?  Or do we have like a creature density/encounter table per region?
+
+  -- PCs and NPCs should have stealth and senses ratings... encounter begins for you when you win an opposed senses vs. stealth roll that the computer has been secretly making for you.  Only then does the computer let you know where the enemy is.  If the enemy is right on top of you, then it's like SURPRISE ATTACK!!!  If the enemy is further away, it's up to you whether you want to approach, hide, retreat, what.
+
+  -- Some random encounters are potentially friendly, or at least not hostile.  If it's an encounter between PCs of opposing factions, then it's up to the PCs involved to decide what to do.  (Alien vs. human pcs have their chat mutually scrambled until they discover translation tech.)  Encounters with intelligent alien NPCs may yield useful information if you're not overtly hostile.
+
+  -- Meanwhile there are also non-random encounters, with hostile creatures created by villian players for purposes of destruction!  (Villian players get a Monster Lab screen where they can build killer robots or genetically engineer bio-monsters.)  Villian player can direct their monsters around like in an RTS game.
+
+  -- How about non-creature encounters... like encounters with natural hazards, mysterious alien artifacts, etc etc?
+
+  -- What is an alien artifact?  They're randomly seeded around the planet by some long-vanished race, for unknown purpose.  They contain Secrets that can be gotten out with sufficient research, i.e. they can jump you up the tech tree if you pump enough Science into them.  Some of them are small enough to be carried around by a player and used; using it does something random related to the tech advance it contains, until you figure out how to use it (which also requires pumping a lot of Science into it).  So, keep it for yourself, sell it to the highest bidder, donate it to science for the good of your civilization?  Other alien artifacts are perhaps room-sized or larger and can only be studied in place, which pretty much means building a facility around them.
+
+  -- Some artifacts are inside Vaults, which are techno-dungeons randomly scattered around the planet.  The vaults are sealed with all kinds of security systems and puzzle-locks to keep out those insufficiently advanced to use the artifacts wisely.  (These vaults are probably best hand-designed by a GM.)  Maybe some of the vaults were actually built to contain things like horribly evil AIs, killer viruses, "cursed" weapons...
+
+  -- Can the alien biosphere infect people instead of just killing them?  Could the infection be passed to others if the infected person comes back inside the city?  Could a player who wants to come inside the city be denied entrance, and if so who decides that?  Is the infection something that slowly transforms people into monstrous human/alien hybrids?
+
+  -- Can we have mecha battles?  Please?
+
+  -- How does a character leave the game?  I think we should encourage character retirement, in which you write an epilogue for your character and it goes onto some kind of permanent record page along with all their achievements.
+
+
+Music tracks to compose:  
+  * Alien Dawn
+  * Call to adventure
+  * Frontier town
+  * Attack of the killer robots
+  * Inhuman intelligence
+  * Bustling metropolis
+  * Poisonous Ocean
+  * Workin' on the moisture farm
+  * Treachery
+(Each of these should be long, like 15 minutes, with gentle transitions, so it can play for a long time as BGM without being totally annoying.)
+
+
+  -- Town's council can set a tax rate, and make the use of certain town facilities (plus voting obviously!) dependent on being a citizen, and being a citizen requires paying taxes.  (But if you set that tax rate too high people will move to some other town...)
+
+  -- Town has an NPC population who do boring stuff / stand around to liven the place up / provide abstract labor force / get brutally killed when monsters attack?
+
+  -- The oversoul / M.O.T.H.E.R. / whatever it's called at the landing site,among its many other functions, runs the defrosting facility (character creation), VR training simulator (tutorial level), and neural implant learning center (which gives you the skillset for your initial class, plus lets you change 'character class' later on)
+
+
+  -- OK, so what kind of stats/skills/database columns does an individual player character need?
+    * Money
+    * Experience? (if multiclassed it goes toward your current class?)
+
+    * Toughness (no HP; wounds are discrete status conditions, but Toughness
+helps you resist them; also to do manual labor)
+    * Stealth
+    * Perception
+    * Quickness
+    * Scientific Aptitude (basis for all science skills...)
+    * Accuracy (ballistic skill, basically)
+    * Some kind of soft-intelligence for interpersonal/linguistic/creative skills?  Or is that all player level?
+    * Some kind of Guts/Grit/Grace Under Pressure thing for combat skills?    
+
+
+
+Starting town is the first human colony on an alien planet.  New starting characters are kids born there (or adults thawed out from cryogenic freeze?).  
+
+Things you can do include terraforming, and founding new towns.
+"King" players are town leaders.  Mayors, i suppose.  Maybe the boundary between mayor play and explorer play is fluid, and you can take a character between one and the other.  Maybe you have to win actual election to become mayor -- unless you set out and found your own town?  Oh man real politics.  What's the system of government?  Does it default to direct democracy?  Does the mayor/governor have to put certain decisions to a popular vote?  
+
+
+Important that individual scientist players can contribute to the society's overall tech tree progress while gaining individual benefits from their inventions.
+
+Running a business that contributes to the town should be easy enough that you can go out on adventures while your business is mostly running itself back home; you just have to make decisions about it every so often.  Justified in fiction by the high technology level which allows many things to be automated.
+
+
+
+
+Basic resources are energy, food, and ore.  Money is a fourth resource, meaningful only within society.
+
+Energy sources: 
+* Solar panels.  Free, but take up a lot of land and don't make that much energy.
+* Geothermal.  Build plant on hot spot, build big ol wires to connect it home.
+* Nukeyoular.  Build plant in town, mine out uranium and bring it back.
+
+Ore sources:
+* Mine.  Build road to get it back to base.  (May need Random Mine Generator.)
+
+Things you can build:
+Solar panels, geothermal station, nuclear power plant, roads, wires
+Ore processing.  Ore needs to get brought back here to add to your total.
+Factory.  Uses energy and ore.  Builds constructobots (and later, other things)
+Hospital.  Players can get healed here, and study medical skills.  Upgraded hospital
+   increases bio research and protects your city from disease outbreak.
+Climate station.  Build these all over globe to get Planet Climate Science, needed for
+   terraforming
+Seaport.  Builds boats.
+Farm.  Makes food; can only be built inside air dome, or in terraformed areas.  Requires water and sunlight.  (Does that mean I have to simulate water and sunlight too?)
+
+New Base.  Begins a new city in the field.
+Air Dome.  Seals base with earth-type environment, so people can breathe inside, raise crops, etc.
+
+
+Constructobot: builds road, wires, solar panels.  Can be upgraded to build buildings.
+
+Miningbot: Digs mine.  Carries ore out of mine.  Only travels on roads. (You can always
+  carry ore out by hand, if you don't have miningbot/roads.  This is one way for beginning
+  players to earn money -- prospecting!)
+
+Other things that can be found in mine:
+  * Uranium
+  * McGuffinite
+  * Horta Eggs (NO KILL I)
+  * Alien artifacts
+  * Eldritch Horrors
+
+
+
+
+
+
+
+
+Actual implementation.  Building on the base of the AJAXMMORPG I've already written, what do I need to do next?
+
+Area 1 - The social platform.  Have basic in-game chat, but improve on it with buddy lists, private channels, geographically limited channels, etc.  Give each game character a unique URL where their personal page can be easily accesed; allow them to write updates to it, link automatically to their friends, etc.
+
+Area 2 - Items and ownership.  Give characters inventories, and let them trade items.
+
+Area 3 - Character creation and skills.  Perhaps the first thing to get started with should be resource-extraction skills: Use your skill in a particular area of land in order to get some amount of resources.  (Areas eventually become exhausted?)
+
+Area 4 - Hostile creatures and combat.
+
+Area 5 - Construction.  Create the constructobots as MOBs owned by players but that are not themselves players.  Have an interface for giving them orders - must include a way to choose between actions as well as a way to indicate a point on the map to the constructobot.
+
+  actions - clear area
+          - terraform area
+          - extract resource
+          - transport resource
+          - lay cable
+          - lay road
+          - lay solar cell
+          - build factory
+          - follow me!
+
+Area 6 - Once I have resource extraction and construction in there as basic concepts, I can start working on the economy.
+
+How to test any of this stuff offline?
+
+
+Classes
+   MOB
+      - has location
+     player
+       - has money, skills, items held
+     constructobot
+       - has cargo, known task menu, current task (type and target point)
+   Terrain
+       - has passable/impassible status (technically this needs to be per side)
+     building
+       - has menu of stuff you can do/buy at the building
+
+
+Clicking on adjacent constructobot brings up task menu; clicking on
+adjacent building brings up building "shopping" menu
+
+
+Constructobot behavior: Constructobot gets a "turn" on a timer (every 1 s or so)
+If it has been given an order, then on its turn it attempts to move towards the
+target point.  (If it runs into an obstacle, it just beeps.  These things have
+no pathfinding.)
+If the order is clear/terraform/extract/build, then when it gets to the location, it checks if the location is suitable, and beeps if not.  If it is
+suitable, then it begins clearing/terraforming/extracting/building, which takes
+some number of further turns.
+
+If the order is transport, then when it gets to the destination it checks if there is a building there that can recieve resources.  If so, it gives them to
+the building; if not, it beeps.
+
+When it completes a build, clear, terraform, extract, or transport, it stops and goes idle.
+
+the "follow" order makes it move towards the player; when it gets to you it idles but keeps following.
+   
+
+
+Later in the game, you can get programmable constructobots which can be given much better pathfinding AI and can be told to do a series of tasks one after another, told to repeat a series of tasks in a certain order forever, or told to watch for certain conditions and notify you or change tasks when those conditions become true.
+
+
+The electric grid:  it needs to know what solar cells (or other power sources) and what buildings (or other power sinks) are attached to it, and then each turn it calculates whether it can feed all the power sinks or not, and if it can't then it starts shorting various power sinks (the furthest away?  Randomly?  Evenly across the board?).
+
+(power source needs:  getPowerProduced().  power sink needs:  getPowerRequired(), receivePower(amount)  where amount may be less than required.)
+
+Some of the power sinks may be recharge spots for electrically powered vehicles.
+
+There could also be a giant capacitor, that acts as both a power supply and a power sink and is thus used to help even out variable demand.
+
+Something very similar could go on for the water grid, but there the sources are either condensers (put anywhere), filters (put only on rivers), or desalinators (put only on ocean).  The destination is, basically, people; let's say there's storage tanks (same as capacitors) and there's taps, which players can go up to in order to replenish their water supply (everybody has a certain max water supply in their suits; if you run out you start taking damage from thirst and die rapidly.  You can buy canteens to increase your max water supply.  You can also buy a water-recycler add-on for your suit, that decreases your consumption rate.
+
+There needs to be sterilization somewhere along the pathway before people drink the water; otherwise they will get infected with alien bacteria.  (This can also happen if you drink directly from a river anywhere in the xenobiosphere; not a good idea, unless you're about to die otherwise.)
+
+Your suit also has an electrical supply, which powers suit add-ons.  If that runs out, you can still stay alive, but none of your suit add-ons will work.
+
+There's something similar for food, but it's not as urgent.  Food and water consumption is automatic, over time.
+
+So this implies that the list of Adventuring Gear you can buy includes:
+
+- Canteen
+- Nutrient Bar (Tastes awful, but keeps you alive.)
+- Tube of Nutrient Paste (Tastes awful, but keeps you alive.)
+- Suit add-on: Lamps (gets dark in caves, at nighttime; use it on enemies to blind them)
+- Suit add-on: water recycler
+- Suit add-on: armor plating (level 1, 2, 3?)
+- Suit add-on: shock absorber (reduces impact, falling damage)
+- Climbing gear
+- Soil Analyzer  (adds to prospecting skill)
+- Suit add-on:  GPS unit (tells you altitude and coordinates on world map)
+- Suit add-on:  Distress beacon (can be activated to send a broadcast message to all other players.  If you also have the GPS, it contains your location.)
+- Suit add-on:  Commlinks
+- Portable Water Purifier
+- Sample container (needed to bring uncontaminated samples back for scientific research)
+
+
+
+Images needed:
+   - Constructobot in the process of building an area
+   - All combinations of cables passing off the side of a square, transparen,  so we
+     can use them to draw the electric grid.

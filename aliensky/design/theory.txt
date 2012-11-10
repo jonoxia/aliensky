@@ -1,0 +1,127 @@
+** my AJAX MMORPG:
+   -- The only "story" should be emergent from player interactions.  That's
+      where the only "role-playing" in an MMORPG happens, anyway... the
+      drama on the message boards is more of a role-playing game than WoW
+      itself could ever be.  So this is about *social* experience design.
+   -- de-emphasize killing stuff.  Make it fairly low-detail, only one way
+      out of many to solve a problem, fairly dangerous to the player...
+      Almost like fighting is an optional sub-game that you can choose to
+      engage in or not!  Stealth and diplomacy occur as commonly applicable
+      alternatives.
+   -- but PCs don't get killed.  They get "captured", or have their items
+      stolen, or they get turned into frogs, or something that leads to a
+      new set of problems.
+      (Or being "injured" is a non-trivial penalty that can't be instantly
+       dismissed, and only happens if you lose a fight pretty badly.  So
+       being injured is not just hit points; it feels serious.)
+   -- you have to rely on other players.  You have to rely on other players
+      like crazy.  Most things in the game should be actually impossible
+      to achieve without significant player interaction.  And then we need to
+      encourage asking for help.  Like, if you're turned into a frog you
+      can very easily send a message to some central "HELP WANTED" message 
+      board.  And a player who's looking for a quest reads that and sees
+      who they might be able to help.  Maybe when you post a help request,
+      you can set what you're offering as a reward.  And if you don't have
+      anything, you can of course always offer "friendship", or help later
+      with skills, or other intangibles.
+   -- Certain actions take a long amount of real-time to complete.  That's to
+      give you a good reason to sign off an get away from the game!!
+      (Oh, and you should be able to queue them up.  And get emails when they
+       are complete!)
+   -- encourage player creativity; let them make, like, a little profile
+      page for their character that other people can see, and let them write
+      a blurb about who their character is.  Then let other people who think
+      it's cool put stars on their profile page, or something.  Let them
+      design what their character looks like, too; let them pursue skills,
+      invent things, build boats and sail away to explore, build kingdoms,
+      etc. 
+   -- in GNS terms this should be something like player-empowered, emergent
+      SIM.
+   -- Newbie-friendliness:  You should be able to make a character with
+      little investment and play some introductory bit to see if you're
+      interested in the game.  The introductory bit should (somehow!) lead
+      you toward choosing your own goals.
+   -- Actually, the game interface should include lots of subtle and not-so-
+      subtle nudges to the player that the idea here is to invent a goal for
+      their character, not so much to win all the pre-written challenges.
+
+   -- What is an RPG anyway?  Starting from the game-design perspective,
+      there has to be some kind of gap in the rules cycle that is only
+      bridged by players negotiating about the content of the fiction.
+     That is, "an rpg is a game where the fiction is part of the rules",
+      aka the Fruitful Void.  This is what separates it from just playing
+      Warhammer and then telling a story *about* your game.  Every MMORPG
+      that I know of is just like doing that -- you can invent a persona
+      for your character and you can describe it to other players, but
+      it's got no mechanical weight.  To make the jump into RPG-land, there
+      has to be some way to give mechanical weight to purely fictional
+      inventions, that are the result of open-ended player creativity and
+      not just choices between built-in options.
+
+   -- Sushu's brilliant idea:  You have relationships on your character
+      sheet -- "Friends with", "Enemies with", etc.  (you can also write
+      additional Color detail on each one.)  When you create your
+      character, you MUST have a relationship with an existing player
+      character.  (most likely, the player who introduced you to the game;
+      if you're just discovering the game yourself, there's a social
+      interface to let you find a sponsor.)  This ensures that newbies
+      to the game are not just left in the cold.
+
+      (Maybe "friends with" and "enemies with" have specific mechanical
+       effects, but can only be entered into by player mutual agreement?)
+
+   -- The beatstick.  In A Wicked Age (in my imperfect understanding) is
+      based on a mechanic where if you beat somebody at the dice, you offer
+      them a choice: agree to your desired fictional outcome, or take a hit
+      from the beatstick (i.e. reduce their stats.)  This is a rather
+      ingenious way to tie in-character fiction negotiation to mechanics
+      in a flexible but systematically enforceable way.  I think the Oath
+      mechanic in Agon is doing something similar, actually -- it gives a
+      way in a purely gamist game for fiction negotiation to be something
+      other than color.
+
+      (Is Trust in The Mountain Witch maybe another expression of this
+       idea?)
+ 
+      So let's steal that idea.  We'll say the game has a concept of
+      "promises".  A promise can be offered in a trade or staked on the
+      outcome of a PvP conflict roll, or just given.  The promise is just
+      some text and maybe a duration, and it is displayed on both character's
+      sheets.  (Publically?  Or just to those involved?)
+      The promis-ee gets an interface that lets them click either "Promise
+      Completed!" or else "Promise Broken!".  Either one makes the Promise
+      go away, but "Promise Broken" replaces it with a CURSE on the promiser.
+      The curse lasts until either the duration of the original promise
+      expires, or until the promise-ee clicks the "Forgive" button.
+
+      This can be backed up with some kind of fictional conceit about how
+      in this world, promises are magically enforced, and oathbreakers are
+      cursed to have the most horrible luck until they get forgiveness.
+
+      (Or in a modern or sci-fi world, there's actually a legal system
+       instead of magical enforcement of promises.  Breach of contract
+       means the NPCs in town won't deal with you until you make amends.)
+
+      On the other hand, if the promise is completed, maybe both players
+      involved get a gold star for it.  The gold star is meaningless except
+      socially.  Also, records of completed and broken quests are permanent
+
+      Now, the abuse that I see this open to is that the asshole player
+      accepts promises from people, and after getting what he wants from them,
+      curses them anyway.  Maybe this can be referred to arbitration by the
+      Game Masters?
+
+   -- Note that any sort of Quest mechanic can be entirely replaced by just
+      giving someone "I promise to complete this quest" in exchange for
+      "I promise to give you half my kindgom when you complete the quest" etc.
+
+   -- Maybe you don't go up levels at all?  Instead, the only way to be
+      "more effective" in the game is to have more players who are willing
+      to help you with challenges (either because they're your friends or
+      because you beat or bribed promises out of them.)
+      Other forms of 'progression' are increased access to a range of
+      options (e.g. more magic cards, rather than stronger magic cards),
+      increased world knowledge, and increased *player skill*.
+
+
+

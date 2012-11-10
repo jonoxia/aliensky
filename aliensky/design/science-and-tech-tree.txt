@@ -1,0 +1,12 @@
+Spending money for upgrading your lab facilities to improve research...
+
+Somewhere on the tech tree there needs to be
+"Advanced Nonlinear Fluid Dynamics" -> "Micro-Aerodynamics"---\
+                                                               |--> Jetpack
+"Magnetic Plasma Shielding"  -> "Miniaturized Fusion Cells"---/
+
+When a player equips and turns on a jetpack, they fly at high speed in whatever direction they're facing - they can change directions but not stop.  Also landing safely requires pilot skill check to avoid crashing and taking damage.  But it's a great way to get around the planet quickly!
+
+There should also be a theoretical physics track that goes through quantum relativity, quantum gravity, dark matter, dark energy, unlocking things along the way like stable wormholes, tachyon emitters, closed time loops, naked singularities (some of these things might also be found in a Progentior Archive).  Eventually you may discover Parallel Universes, which lets you build a teleporter to transfer things and people to and from *other servers running the game*
+
+The final things to unlock in this track are "The GOD Equation", which just says "All the secrets of the universe are revealed to you at last.  It's all so simple now...".  It gives you the developer/debug view of the game world, where you can see the source code, and gives you IN CHARACTER knowledge that you are living in a computer simulation.  Finally, this unlocks "Baby Universe" ("Bottle Big Bang"?)  which gives you commit access to the source code and a server on which to create your own game instance.

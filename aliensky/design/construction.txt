@@ -1,0 +1,85 @@
+Buildings!  What kind of stuff can you make inside and outside a town?
+
+The town is not a separate screen.  Inside a building is a seaprate screen.  But the buildings you build will go on the main map screen.
+
+Building buildings is mostly Laborer class work.  Note that Laborer 1. *sounds* really un-fun just cuz of the name but 2. Has a lot of really important work to do.  Should it be a class that all players pass through before moving on to something else?  Should its skills be split out among several classes?  (Builder/Farmer/Miner?) Or are those just specializations within the Laborer class?  Can you take a primary class and also a construction secondary skill?  Or do we just need to give the poor laborer a more glamorous name like Architect or Civil Engineer?
+
+Say that a starting player doesn't have a house/workshop/lab yet.  (Getting a place of your own should be an early-game milestone).  You can eat & sleep in the common barracks/cafetaria area, but this sucks (you can only own what you can carry around with you, maybe you have to pay rent).
+
+(So characters need to eat and sleep, right?  Needing sleep is an excellent reason to encourage players to sign off and not binge.  Perhaps "place to sleep" really means "place to safely leave your character when you log out.")
+
+Speaking of rent, how does money work?  It's an abstract currency managed by some kind of central bank, I assume?  You don't exactly get it by killing monsters.  Maybe new money only enters the system when a new character is created?  Or only when the central bank buys something from a player?  Does the central bank have a limited supply of the stuff?  Can the admin create more and devalue the currency?  The mind boggles.
+
+So the landed spaceship forms the center of the new colony:  It's got a certain limited amount of battery reserves, food and water supplies, and constructobot inventory on board (but no raw materials).  Like the Store in MULE, it's got a varying sell cost and buy cost for each of these things.
+
+Basically there will be lots of wires and pipes running into and out of the lander to outbuildings for a while, until the colony becomes self-sufficient.
+
+Let's talk about what we need to build a house.
+
+(These are mostly Laborer skills or constructobot abilities.  You need laborers!)
+
+-- Need some flat ground, so you need a way to alter the terrain
+-- Need raw materials to build it out of!
+-- Need air containment.  Until you get domes, or terraforming, that means it has to have an airtight enclosure and you need a spacesuit to be outside it.  (Two buildings with airtight enclosure can be connected by building a tunnel.) Also need a certain number of air recyclers per person who will be in the building; (so each enclosure has some kind of air quality rating which goes down the more people are breathing it...)
+-- You preferrably want a water supply; it's not so much the building that needs that, as the player needs stuff to drink.  If you've got water supply to the building you can have a sink inside and drink / refill your suit water supply out of that!!  It means you either need your own water recycler or be hooked up to the water grid.
+-- Need electricity supply, to power your lights, computers, air and water recyclers, etc.  Can have an electrical outlet that recharges your vehicles / constructobots / whatever.
+-- Computer terminal -- needs electricity, lets you post messages / check prices / buy and sell resources / check your air and water quality / check your electricity input/output / check your budget / etc etc.
+-- You can leave your stuff on the floor, or you can have furniture to put it in.
+-- You probably want a bed too.
+-- And a kitchen, if you don't want to eat nutrient cubes or go to the cafeteria all the time.  (Or if you want to make food and sell it!)  Anyway, making good food requires a kitchen.
+-- With sufficient tech (later game) you can have some kind of replicator / microfactory that makes common items for you, in the comfort of your own home.
+
+
+Customizing your house should be fun!!
+
+Inside the house is definitely a separate screen.  If there's a tunnel connecting two houses, you can walk through the tunnel on the inner screen.
+
+A building could be a lab/workshop or a store or restaurant instead of a house just by changing the elements you have inside it (and putting a sign out front to indicate it's public).
+
+The game needs a concept of "building ownership"; owner of a building can exclude people, or charge them an entrance fee.
+
+
+
+
+Raw materials, to build buildings out of:
+-- Metal: Mine some metal ore (or recycle scraps using the Salvage skill!) to get raw metal;  need some kind of metalworking facility to turn it into useful construction materials.  (Very heavy, need to be carted around on some kind of cart-bot)
+
+Or
+
+-- Wood!  Chop those giant alien mushroom-trees.  Not recommended as a house made of alien wood will be full of alien bacteria.
+
+Or
+
+-- Plastic!  Need hydrocarbon resources (drill for oil); a refinery turns it either into fuel or into raw plastic materials (or some of each?)
+
+
+Since almost everything will cost metal and plastic to make, there needs to be some way of getting this started -- the lander has some supply, or more likely, the lander has parts that can be salvaged for raw materials.  This would mean that bad collective decision making early game could put the colony in an untenable situation.
+
+
+Let's say there's a concept of "building plans".  The central computer (which needs a catchy name by the way) has a stash of them to start out with, and sells them for a fixed nominal fee.  Each building plan has:
+
+- Material requirements list
+- Time for constructobot to build (it's a lot longer for buildings than for pipes, wires, and solar collectors.  Maybe you can put multiple constructobots on it?  Sure, why not.  Maybe you can also help with your own hands, if you want to speed it up and don't have anything better to do.)
+- Minimum Laborer level needed to learn the plan
+- XP gained for building it!
+- Icon used to show building on map screen
+- Starting interior floor plan.
+
+You use the building plan in conjunction with your Construction skill and/or a constructobot in order to build the building.  Higher levels of Construction skill allow you to reduce materials and reduce time to build.
+
+Later on a laborer can learn the Architecture skill which enables them to freely design their own building plans, including drawing the floor plan and the icon.  (User generated content!)  They can build or sell the plans.
+
+Basic types of buildings (with plans included in the library computer) include Hab-units (houses), factories, research labs, hydroponic greenhouses (farms), warehouses, marketplaces.... hospitals?
+
+There will be demand for factories from engineers, who need a factory to make stuff; demand for research labs from scientist classes, who need space in one to do their research; demand for houses from everyone (assuming we figure out the mechanic that makes having a house desirable); and demand for marketplaces from anyone who has a skill that makes things and wants a place to sell them.
+
+When you build a building you get the deed to it in your inventory; you can trade the deed like any other item and this automatically transfers ownership of the building.
+
+Laborer player needs to be able to find out demand/ going rate for each type of building so they can decide what to make and then sell it to somebody.
+
+You can always customize a building you own by putting a sign on it; anyone mousing over the bulding will see what the sign says.
+
+
+
+
+Do buildings alter depending on their neighbors?  I.e. if you build several farms do they become one big farm?  Does the exterior icon change?  Does the interior floor plan change?  I kind of feel like if you connect buildings, the interior floor plan should automatically merge with little tunnels between rooms.

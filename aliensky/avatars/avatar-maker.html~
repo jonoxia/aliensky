@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Beneath an Alien Sky: Customize your Character</title>
+<script type="application/javascript;version=1.8" src="avatar-maker.js"></script>
+</head>
+
+<body onload="onAvatarMakerPageLoad();">
+
+<p>Pick head:<img src=""></p>
+Pick hair:
+Pick eyes:
+Pick mouth:
+Pick torso:
+Pick legs:
+Pick feet:
+Pick arms:
+Pick item in left hand:
+Pick item in right hand:
+
+
+     Skin color:
+     Hair color:     Accessory color:
+     Eye color:
+     Clothes primary color:   Secondary color:  Accessory color:
+     Shoes color:
+
+</body> </html>

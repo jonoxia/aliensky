@@ -1,0 +1,142 @@
+SF Character classes! Just because games with class change are fun.
+"Fighter" classes:
+  * Marine, trained in weapons, power armor, and team tactics;
+  * Commando, trained in specialized weapons, stealth, and special ops.
+  * Hunter, traind in fighting, tracking, and capturing alien life forms
+  * Pilot, trained in flying spaceships, piloting mecha, etc.  
+Tech classes:
+  * Hacker, trained in software (security, robot programs, communications, etc)
+  * Mechanic, trained in hardware (building from designs, repairing, etc)
+  * Inventor, able to make new designs using unlocked tech
+Science classes:
+  * Planetologist, trained in analyzing the planet (a variety of uses).
+  * Xenobiologist: Unlocks new bio tech by studying alien life forms
+  * Physicist: unlocks new tech by researching strange phenomena, alien artifacts, etc
+Medical classes:
+  * Medic
+  * Doctor (an advanced medic - can research cures to new diseases)
+Low-class classes:
+  * Laborer  (default for corpsicles and robots) -- can do grunt work of mining, terraforming,
+      building, growing food, etc. using machines that others have built
+  * Rogue (default for Children) -- jack of all trades, trained in miscellaneous skills
+
+Most things worth doing in the game require collaboration from characters with radically different skill sets.
+
+Political classes?  (Or is that a purely social role with no game mechanical effect?)
+Explorer?  (rewarded for finding new chunks of map, with the travel skills to do so?)  Diplomat (made to communicate with other factions/ the aliens?)?  Lab Assistant/Student (a proto-scientist class?)
+
+
+In-game quest-style requirements to join a new class.  You can switch classes at any time, and experience you earn is applied to your current class, but you keep the skills from the old class.
+Actually, maybe not!  The social benefits of niche protection mean that we don't want any character becoming too self-sufiicient by mixing class skills, because that just gets boring.
+
+Instead of "classes", let's call them "profession".  So race/class -> origin/profession
+
+Advanced professions are also social clubs.  So maybe the set of all Doctors gets to set the requirements for new players to advance to Doctor.  A simple way to implement this is simply: the only way to join a new class is to get someone who is already a member of that class to teach you, which is an in-game option that requires some expenditure of time/resources so that you don't just give it away to anybody.  Then let players decide what's an appropriate qualification to let newbies into their profession.
+
+
+Other options for characters on human colony planet:  Choose one Origin from:
+(these are kind of like "races")
+* Child -- 
+* Corpsicle -- 
+* Crew Member -- 
+* Robot -- 
+* Homo superior -- A genetically engineered human. You have some ability to customize 
+* Chimera -- a human-alien hybrid
+
+Alien factions?  An entirely separate town, separate tech tree, etc.  Maybe planet natives plus
+offworld alien colonists?  The biggest question I have yet to answer is, are the alien factions PCs or NPCs?
+
+Maybe these options change as the overall game state proceeds.  That is, the first N players to
+join are all Crew Members.  Then after the civilization in the game reaches a milestone such that the crew gets the ability to thaw corpsicles, new players after that point can play as corpsicles.  Then after the first child is born on the planet, new players have the option of playing a child.  After the tech tree reaches strong AI, you can play a robot.  After the tech tree reaches human genetic engineering, you can play homo superior; when they discover human-alien hybrids then you can play a chimera.
+
+
+In fact, maybe the way all skills work is like this:
+* To be the first player to get the skill, you have to research it (may require all kinds of material components and infrastructure to do so)
+* Once somebody has researched it, they can teach it to others in exchange for money (and time).
+* Generally I think I want players to be spending a lot of their personal wealth on skill development.
+
+
+Intro text:
+
+YOU HAVE just been awakened from cold sleep.  Your memories are beginning to come back to you.
+You signed a contract, shook hands with the representative from the Space Colonization Agency.  For reasons of your own, you were happy to leave Earth behind in the rear-view monitor.  The shuttle brought you up to a gleaming cylindrical object, five kilometers long, being constructed in orbit.  They told you not to eat anything for twenty-four hours ahead of time; you remember being hungry as you sunk into the padded foam of the cryopod.  You don't even remember being cold; just the needles going in and then... here you are.
+
+
+
+Generally, rather than gaining power exponentially, advancement in a class is horizontal.  Getting more and more levels gets you diminishing returns when put into the same skill (you tangentially approach 100%) but is much more useful spread out across multiple skills.  So a Level 10 Marine isn't 10 times better at doing damage, but rather has 10 times as many different useful skills.  Therefore, every class needs multiple branches of specialization, e.g. Laborer branches into Construction, Farming, and Mining; being really high level in the class means you've taken all the branches.
+
+
+Marine Skills:
+  * Take Cover - gives you a defensive bonus vs ranged attacks based on the terrain square you're on, that lasts until you move.
+  * Shoot - duh
+  * Suppressing Fire - does minimal damage but has chance of pinning the enemy
+  * Rapid Fire - Low accuracy but lots of shots scattered over a region makes it a sort of "AOE spell"
+  * Pinpoint Shot - Takes time to set up but high chance of critical hit
+  * Toss Grenade - There are stun grenades, explosive grenades, fire grenades, 
+       etc.
+
+Hunter Skills:
+   * Hide
+   * Sneak
+   * Track
+   * Shoot
+   * Tranquilizers
+   * Nets
+   * Train Animal   (Are there Canis Sapiens in this game?)
+
+Rogue Skills:
+   * Pickpocket - has a chance of taking random item from another player; may or may not alert them.
+   * Hide
+   * Sneak
+   * Climb
+   * Sabotage Machinery
+   * Open Locks (this is turning into quite the D&D thief skill list innit?)
+   * Break Stuff
+   * Scope Out 
+   * Escape
+   * Swim
+   * Make Friends with Animals
+   * Salvage
+
+Pickpocket makes me think that there must be a way to nonlethally attack and capture other players, so the police can catch the pickpocket and put them in jail, right?
+
+
+
+Medic Skills:
+   * First Aid (can be done in the field; reduces penalty from wound but 
+                wound remains)
+   * Proper Medical Treatment (need to be in hospital, permanently cures
+                              wound) 
+   * Cure Terrestrial Disease
+   * Resuscitate (use on people who have Gone Into Shock in the field)
+   * Research Condition (use on people who have strange and unknown
+         conditions;  gains research points that can eventually unlock
+         skills and tech to treat those conditions.  This is how you
+         get all the skills for other conditions.  Like...)
+
+   * Cure Kobaian Chemotoxin (aka poison)
+   * Cure Kobaian Neurotoxin (paralysis)
+     etc (standard status ailments)
+   * Cure Kobaian DNA Infection (the scary one)
+   * Make Medicine (the skill to make the consumables that are used for
+     healing.  Can you make "healing potions" to give to other classes to
+     use in the field?)
+
+
+Mechanic Skills:
+   * Asses (tells you what an item is, how broken it is, what you need to fix it, and what you can salvage it for)
+   * Repair (uses up consumables, repairs broken item/machine)
+   * Salvage (destroys item/machine, gives you parts.  higher skill = get more percent of its value back)
+   * Design (create plans for new item - user generated content!)
+   * Make (Higher skill = build faster, use fewer parts.  Build at a proper workbench in a factory for bonus.)
+
+   Types of things you can make:  Robots, suits + suit upgrades, weapons, tools for other classes, facilities (things that get installed inside buildings).  Separate skills for each of these maybe, so you can specialize?
+
+   Since some of the build times are pretty long, you should be able to queue up tasks (that you have the materials for up front) and then log off and let your character do all that stuff.
+
+
+To encourage social play, no class is soloable.  Niche protection.  Each class needs help from skills of another class to do anything useful.
+E.G.
+Hunter needs to capture alien creature so scientist can research it
+Mechanic needs to build plane so pilot can fly it
+Physicist discovers some tech, inventor turns it into weapon, laborer builds factory to pump them out, marine wields them.  Etc.

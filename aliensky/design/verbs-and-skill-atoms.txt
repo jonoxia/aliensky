@@ -1,0 +1,123 @@
+Basic Verbs:
+- Walk
+- Investigate/Study
+- Make
+- Converse
+- Trade
+- Capture/Collect
+- Issue Orders
+- Use Machine/Tool
+
+Higher-Order Verbs:
+
+- Explore
+- Discover
+- Analyze
+- Build
+- Plan
+- Invent
+- Bargain
+- Team Up / Collaborate
+
+Highest-Order Verbs:
+
+- Politic
+- Befriend
+- Role-Play
+- Understand Planet
+- Guide Civilization
+- Make Value Judgements
+
+
+
+Risks/Rewards:
+(If death is permanent:  What are the non-death risks?)
+
+
+Main Cycle:
+(in standard mmo, main cycle is kill stuff -> (stay alive) -> get money/exp to improve character -> get better at killing stuff -> be able to kill bigger things -> open up new area with bigger reward opportunities.  Also find questgiver -> explore region -> accomplish quest -> return to questgiver -> get reward.
+
+In alpha centauri, main cycle is llo
+
+
+
+Initial Goal:
+Capt Ramses: Colony needs water, energy to survive its first year.
+             Here's your time limit, here's the bare minimum, here's what
+             we'd like to have.  Go!
+
+
+Skill Atoms:
+    1. I can collect resources from squares and cash them in!
+           --> And get EXP for this
+    2. Some mineable areas are better than others, but they're farther away.
+            --> Player should be able to get a cool reward after the very
+                 first mineral trip
+    3. If I stay out too long or stray too far from base, I will start
+          to run out of air. 
+    4. But players can help each other reach farther areas away (how?)
+            --> Exchange info on best spots
+            --> Increase carrying capacity (how?)
+            --> Increase movement speed (how?)
+            --> Help each other if you get into trouble
+
+    Big lesson:  We're way more effective if we work together
+
+    5. There are native creatures that will attack me and I have to stay
+           away from them.  (risk assesment)  (These creatures are attracted
+            to the best mineral mining areas themselves; they're crystalvores
+            or something)
+
+    6. But if I bring a Marine along, they can shoot the creatures to scare
+            them away.  (and get EXP for this)
+
+    7. With enough minerals, I can visit the microfactory and have it build me
+            a constructobot (fanfare!)
+
+    8. With the constructobot, I can make solar panels
+
+    9. The solar panels require cables to connect them back to the base
+         -> Once connected, I get rewarded (fanfare!) more exp, money
+
+    10. There are alien creatures who will attack and destroy solar panels
+         or cables.
+           -> A tech can repair them
+           -> A marine can fight off the attackers
+           -> a scientist can analyze captured creatures to develop
+              countermeasures
+
+    11. Some spots for solar panels are better than others
+          (but may not be cost-effective if they're too far away)
+          -> Scientist can analyze squares to find the most effective ones
+
+    12. With money and minerals, I can upgrade my suit to stay out longer and
+           go farther.  (When I go farther, I see signs of interesting things
+            that I don't know how to interact with yet.)
+
+    13. Also upgrade my constructobot or buy multiples for faster work
+
+    14. Upgraded constructobot can alter landscape (dig tunnel, build ramp)
+             to make it easier to get cables to difficult locations
+
+    15. When enough energy goes back to the base, new parts light up and new
+             options become available (for everyone!)
+
+    16. But the base's water supplies go down with each person who passes
+             through.  And it's giving us a warning that it will be game over
+             if the minimum water needs are not met.
+
+    17. There's two ways to get water: condensers, or purification of rivers.
+             (How do players find this out?)
+
+    18. Condensers are basically like solar panels except that different
+           squares have moisture than have sunlight...
+              (This is kind of boring, though.  Should have something else...)
+              (Condensers have to be developed first using Science?)
+              (Condensers easier to get but not nearly as effective as river
+                 water purifiers?)
+
+    19. River water purifiers DEFINITELY need Science.  You need to discover
+          all kinda stuff about native microbes and how to kill them and stuff.
+         This makes it way important to climb the tech tree and doesn't give
+          people other than scientists musch to do other than like hunt
+          bacteria or something... this needs a think through.
